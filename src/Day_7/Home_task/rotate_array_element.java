@@ -7,7 +7,7 @@ public class rotate_array_element {
     public static void main(String[] args) {
         int[] num = new int[]{2, 3, 4, 5, 6, 6, 7};
         int temp = 0;
-        int temp1 = 0;
+        //int temp1 = 0;
         System.out.println(Arrays.toString(num));
 
         for (int j = 1; j <= 3; ++j) {
