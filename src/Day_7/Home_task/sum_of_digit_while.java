@@ -8,12 +8,14 @@ public class sum_of_digit_while {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Sum of digits: ");
         int n = scanner.nextInt();
+        int sum = 0;
         int i = 1;
-
-        int sum;
-        for (sum = 0; n != 0; n /= 10) {
-            sum += n % 10;
+        while(n!=0){
+            int digit = n%10;
+            sum+=digit;
+            n=n/10;
         }
+
 
         System.out.println(sum);
     }
