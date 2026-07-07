@@ -10,9 +10,7 @@ public class sum_of_array {
         int[] arr = new int[]{1, 2, 3, 4, 5};
 
         for(int i = 0; i <= 4; ++i) {
-            if (i % 2 != 0) {
                 sum += arr[i];
-            }
         }
 
         System.out.println(Arrays.toString(arr));
