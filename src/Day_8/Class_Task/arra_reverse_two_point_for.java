@@ -13,8 +13,8 @@ public class arra_reverse_two_point_for {
             int temp = num[left];
             num[left] = num[right];
             num[right] = temp;
-            ++left;
-            --right;
+            left++;
+            right--;
         }
 
         System.out.println(Arrays.toString(num));
