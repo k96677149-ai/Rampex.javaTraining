@@ -3,12 +3,12 @@ package Day_8.Home_Task;
 public class X_pattern {
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 7; ++i) {
-            for (int j = 1; j <= 7; ++j) {
-                if (j != i && j != 7 - i + 1) {
-                    System.out.print(" ");
-                } else {
+        for (int i = 0; i <7; i++) {
+            for (int j = 0; j <7; j++) {
+                if (i==j || i+j==7-1) {
                     System.out.print("*");
+                } else {
+                    System.out.print(" ");
                 }
             }
 
