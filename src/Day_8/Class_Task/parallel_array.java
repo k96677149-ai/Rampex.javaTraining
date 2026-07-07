@@ -7,9 +7,9 @@ public class parallel_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] arr = new String[]{"pepsi", "sprit", "maza", "mountain_dew", "campa"};
-        int[] price = new int[]{40, 20, 45, 40, 10};
+        int[] price = {40, 20, 45, 40, 10};
         int totalbill = 0;
-        int[] stock = new int[]{5, 5, 5, 5, 5};
+        int[] stock = {5, 5, 5, 5, 5};
         int amt = 0;
         System.out.println("pepsi,sprit,maza,mountain_dew,campa");
 
