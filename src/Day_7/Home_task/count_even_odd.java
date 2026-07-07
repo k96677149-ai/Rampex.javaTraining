@@ -3,7 +3,7 @@ package Day_7.Home_task;
 public class count_even_odd {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 5};
+        int[] arr = {1, 2, 3, 4, 5};
         int count = 0;
         int count1 = 0;
 
