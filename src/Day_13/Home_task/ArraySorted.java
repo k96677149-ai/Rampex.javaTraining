@@ -20,7 +20,7 @@ public class ArraySorted {
         System.out.println("After Sorting: " + Arrays.toString(arr));
 
         for(int i=0;i<arr.length;i++){
-            if(arr[i]<arr[i+1]){
+            if(arr[i]< arr[i+1]){
                 return true;
             }
         }
