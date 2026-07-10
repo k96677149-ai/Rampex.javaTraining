@@ -6,7 +6,8 @@ public class Throw {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int a=0;
-        try{
+        try
+        {
             a = sc.nextInt();
         }
         catch(Exception e){
