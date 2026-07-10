@@ -8,11 +8,13 @@ public class array_reverse_two_point_while {
         int[] num = new int[]{1, 2, 3, 4};
         int left = 0;
         int right = num.length - 1;
+        //int count = 0;
 
-        for(int count = 0; count < num.length / 2; ++count) {
+        while( left < right) {
             int temp = num[left];
             num[left] = num[right];
             num[right] = temp;
+            //count++;
             ++left;
             --right;
         }
