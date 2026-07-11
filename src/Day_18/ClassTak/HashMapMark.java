@@ -1,6 +1,5 @@
 package Day_18.ClassTak;
-import Day_17.Hometask.MaxMin;
-
+import java.util.Map;
 import java.util.HashMap;
 public class HashMapMark {
     public static void main(String[] args){
@@ -11,11 +10,15 @@ public class HashMapMark {
         mark.put("moni",85);
 
         int max = 0;
-       for(Integer i :mark.values()){
-           if(i > max){
-               max = i;
+        String name="";
+       for(Map.Entry<String,Integer> e:mark.entrySet()){
+           if(e.getValue() > max){
+               max = e.getValue();
+               name = e.getKey();
            }
        }
+
+        System.out.println(name);
         System.out.println(max);
     }
 }
