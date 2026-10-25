@@ -20,7 +20,7 @@ public class armstrong_number {
         temp = num;
        while(temp!=0){
             rem = temp % 10;
-            sum += (int)Math.pow(sum,digit);
+            sum += (int)Math.pow(rem,digit);
             temp = temp / 10;
         }
 
